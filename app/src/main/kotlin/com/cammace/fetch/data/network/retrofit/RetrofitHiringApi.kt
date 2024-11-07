@@ -16,11 +16,11 @@ import retrofit2.http.GET
  */
 private interface RetrofitHiringApi {
 
-    @GET
+    @GET("hiring.json")
     suspend fun getHiringList(): List<HiringResponse>
 }
 
-private const val BASE_URL = "https://fetch-hiring.s3.amazonaws.com/hiring.json"
+private const val BASE_URL = "https://fetch-hiring.s3.amazonaws.com/"
 
 /**
  * [Retrofit] backed [HiringRemoteDataSource]

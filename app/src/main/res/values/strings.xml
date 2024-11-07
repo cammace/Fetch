@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Fetch</string>
+    <string name="empty_list_message">No items to display.</string>
+    <string name="error_button_retry">Retry</string>
+    <string name="list_id_preface">List ID: %1$s</string>
 </resources>
